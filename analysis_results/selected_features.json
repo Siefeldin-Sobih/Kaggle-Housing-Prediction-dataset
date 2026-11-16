@@ -1,0 +1,29 @@
+{
+  "response": "LogSalePrice",
+  "features": [
+    "OverallQual",
+    "GrLivArea",
+    "GarageCars",
+    "YearBuilt",
+    "TotalBsmtSF",
+    "LotArea",
+    "BsmtFinSF1",
+    "KitchenQual",
+    "FireplaceQu",
+    "YearRemodAdd",
+    "OverallCond",
+    "MSZoning",
+    "CentralAir"
+  ],
+  "transformations": {
+    "LotArea": "natural log",
+    "quality_ratings": "ordered numeric scores"
+  },
+  "excluded_home_ids": [
+    1299
+  ],
+  "training_homes_used_for_selection": 1168,
+  "splits": 15,
+  "minimum_selection_frequency": 0.8,
+  "minimum_numeric_direction_consistency": 0.9
+}

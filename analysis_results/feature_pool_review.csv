@@ -1,0 +1,80 @@
+feature,type,missing_pct,largest_group_pct,smallest_category,status,reason
+MSSubClass,Categorical,0.0,37.41438356164384,4.0,Set aside,A category has fewer than 5 training homes
+MSZoning,Categorical,0.0,79.70890410958904,8.0,Eligible,
+LotFrontage,Numeric / ordered,17.893835616438356,11.678832116788321,,Eligible,
+LotArea,Numeric / ordered,0.0,1.8835616438356164,,Eligible,
+Street,Categorical,0.0,99.57191780821918,5.0,Set aside,More than 95% have the same value
+Alley,Categorical,0.0,93.75,34.0,Eligible,
+LotShape,Categorical,0.0,62.5,7.0,Eligible,
+LandContour,Categorical,0.0,89.98287671232876,30.0,Eligible,
+Utilities,Categorical,0.0,99.91438356164383,1.0,Set aside,More than 95% have the same value
+LotConfig,Categorical,0.0,72.26027397260275,4.0,Set aside,A category has fewer than 5 training homes
+LandSlope,Categorical,0.0,95.11986301369863,11.0,Set aside,More than 95% have the same value
+Neighborhood,Categorical,0.0,14.897260273972602,1.0,Set aside,Set aside for the simpler model; smallest neighborhood has one training sale
+Condition1,Categorical,0.0,86.90068493150685,1.0,Set aside,A category has fewer than 5 training homes
+Condition2,Categorical,0.0,98.97260273972603,1.0,Set aside,More than 95% have the same value
+BldgType,Categorical,0.0,83.21917808219177,25.0,Eligible,
+HouseStyle,Categorical,0.0,51.02739726027397,6.0,Eligible,
+OverallQual,Numeric / ordered,0.0,27.654109589041095,,Eligible,
+OverallCond,Numeric / ordered,0.0,56.33561643835616,,Eligible,
+YearBuilt,Numeric / ordered,0.0,4.708904109589041,,Eligible,
+YearRemodAdd,Numeric / ordered,0.0,11.815068493150685,,Eligible,
+RoofStyle,Categorical,0.0,77.82534246575342,1.0,Set aside,A category has fewer than 5 training homes
+RoofMatl,Categorical,0.0,98.11643835616438,1.0,Set aside,More than 95% have the same value
+Exterior1st,Categorical,0.0,35.18835616438356,1.0,Set aside,A category has fewer than 5 training homes
+Exterior2nd,Categorical,0.0,34.417808219178085,1.0,Set aside,A category has fewer than 5 training homes
+MasVnrType,Categorical,0.5993150684931506,59.689922480620154,12.0,Eligible,
+MasVnrArea,Numeric / ordered,0.5993150684931506,59.60378983634798,,Eligible,
+ExterQual,Numeric / ordered,0.0,61.90068493150685,,Eligible,
+ExterCond,Numeric / ordered,0.0,87.58561643835617,,Eligible,
+Foundation,Categorical,0.0,44.863013698630134,3.0,Set aside,A category has fewer than 5 training homes
+BsmtQual,Numeric / ordered,0.0,43.321917808219176,,Eligible,
+BsmtCond,Numeric / ordered,0.0,90.06849315068493,,Eligible,
+BsmtExposure,Numeric / ordered,0.08561643835616438,65.1242502142245,,Eligible,
+BsmtFinType1,Numeric / ordered,0.0,29.28082191780822,,Eligible,
+BsmtFinSF1,Numeric / ordered,0.0,31.25,,Eligible,
+BsmtFinType2,Numeric / ordered,0.08561643835616438,86.28963153384747,,Eligible,
+BsmtFinSF2,Numeric / ordered,0.0,88.52739726027397,,Eligible,
+BsmtUnfSF,Numeric / ordered,0.0,7.61986301369863,,Eligible,
+TotalBsmtSF,Numeric / ordered,0.0,2.482876712328767,,Eligible,
+Heating,Categorical,0.0,97.85958904109589,2.0,Set aside,More than 95% have the same value
+HeatingQC,Numeric / ordered,0.0,50.77054794520548,,Eligible,
+CentralAir,Categorical,0.0,93.57876712328768,75.0,Eligible,
+Electrical,Categorical,0.08561643835616438,91.85946872322194,1.0,Set aside,A category has fewer than 5 training homes
+1stFlrSF,Numeric / ordered,0.0,1.797945205479452,,Eligible,
+2ndFlrSF,Numeric / ordered,0.0,57.96232876712329,,Eligible,
+LowQualFinSF,Numeric / ordered,0.0,98.20205479452055,,Set aside,More than 95% have the same value
+GrLivArea,Numeric / ordered,0.0,1.5410958904109588,,Eligible,
+BsmtFullBath,Numeric / ordered,0.0,57.87671232876713,,Eligible,
+BsmtHalfBath,Numeric / ordered,0.0,94.34931506849315,,Eligible,
+FullBath,Numeric / ordered,0.0,52.48287671232877,,Eligible,
+HalfBath,Numeric / ordered,0.0,62.842465753424655,,Eligible,
+BedroomAbvGr,Numeric / ordered,0.0,54.965753424657535,,Eligible,
+KitchenAbvGr,Numeric / ordered,0.0,95.29109589041096,,Set aside,More than 95% have the same value
+KitchenQual,Numeric / ordered,0.0,49.82876712328767,,Eligible,
+TotRmsAbvGrd,Numeric / ordered,0.0,26.79794520547945,,Eligible,
+Functional,Categorical,0.0,93.23630136986301,1.0,Set aside,A category has fewer than 5 training homes
+Fireplaces,Numeric / ordered,0.0,47.00342465753425,,Eligible,
+FireplaceQu,Numeric / ordered,0.0,47.00342465753425,,Eligible,
+GarageType,Categorical,0.0,59.07534246575342,6.0,Eligible,
+GarageYrBlt,Numeric / ordered,5.907534246575342,4.9135577797998184,,Eligible,
+GarageFinish,Numeric / ordered,0.0,40.83904109589041,,Eligible,
+GarageCars,Numeric / ordered,0.0,57.10616438356164,,Eligible,
+GarageArea,Numeric / ordered,0.0,5.907534246575342,,Eligible,
+GarageQual,Numeric / ordered,0.0,89.12671232876713,,Eligible,
+GarageCond,Numeric / ordered,0.0,90.06849315068493,,Eligible,
+PavedDrive,Categorical,0.0,92.03767123287672,19.0,Eligible,
+WoodDeckSF,Numeric / ordered,0.0,51.79794520547945,,Eligible,
+OpenPorchSF,Numeric / ordered,0.0,44.863013698630134,,Eligible,
+EnclosedPorch,Numeric / ordered,0.0,86.72945205479452,,Eligible,
+3SsnPorch,Numeric / ordered,0.0,98.37328767123287,,Set aside,More than 95% have the same value
+ScreenPorch,Numeric / ordered,0.0,92.03767123287672,,Eligible,
+PoolArea,Numeric / ordered,0.0,99.48630136986301,,Set aside,More than 95% have the same value
+PoolQC,Numeric / ordered,0.0,99.48630136986301,,Set aside,More than 95% have the same value
+Fence,Categorical,0.0,80.73630136986301,9.0,Eligible,
+MiscFeature,Categorical,0.0,96.74657534246575,1.0,Set aside,More than 95% have the same value
+MiscVal,Numeric / ordered,0.0,96.83219178082192,,Set aside,More than 95% have the same value
+MoSold,Categorical,0.0,16.523972602739725,40.0,Eligible,
+YrSold,Numeric / ordered,0.0,23.715753424657535,,Eligible,
+SaleType,Categorical,0.0,87.7568493150685,1.0,Set aside,A category has fewer than 5 training homes
+SaleCondition,Categorical,0.0,82.61986301369863,3.0,Set aside,A category has fewer than 5 training homes

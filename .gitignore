@@ -1,0 +1,10 @@
+
+.venv/
+.idea/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+kernel-ipc-*
+.env
+.env.*
+kaggle.json

@@ -1,0 +1,2 @@
+model,n_homes,RMSE_dollars,MAE_dollars,log_RMSE,coverage_90_pct,mean_interval_width_dollars
+Simple Bayesian: selected 13,291,21137.19431850566,14547.295163823026,0.11673337920647936,93.81443298969072,75495.6634084811

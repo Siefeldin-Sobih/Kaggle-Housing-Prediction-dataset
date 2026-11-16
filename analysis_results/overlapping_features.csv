@@ -1,0 +1,7 @@
+set_aside,kept,absolute_correlation
+1stFlrSF,TotalBsmtSF,0.8205822975651714
+Fireplaces,FireplaceQu,0.8629494786536837
+GarageArea,GarageCars,0.8884168986246413
+GarageQual,GarageCond,0.9599008819401225
+GarageYrBlt,YearBuilt,0.8222957281664601
+TotRmsAbvGrd,GrLivArea,0.8323458022156829
